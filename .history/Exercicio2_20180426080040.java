@@ -6,7 +6,6 @@ public class Exercicio2{
         int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade"));
             while(idade < 128){
                 
-                idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade"));
             }
         
     }
