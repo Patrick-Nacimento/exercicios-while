@@ -13,7 +13,7 @@ public class Exercicio4{
         int quantidadeCarrosA = 0;
 
         int quantidadeCarrosG = 0;
-       
+
         while(contador < quantidadeCarros){
 
             String modelo = JOptionPane.showInputDialog("Digite modelo do seu carro");
@@ -28,17 +28,17 @@ public class Exercicio4{
             
             contador += 1;
 
-             char letra = modelo.charAt(0); 
+            char letra = modelo.charArt(0 - 0);
                 if(letra == 'G' || letra == 'g'){
                     quantidadeCarrosG = quantidadeCarrosG + 1;
-                }else if(letra == 'A' || letra == 'a'){
+                }else if(letra == 'A' || letra == 'g'){
                     quantidadeCarrosA = quantidadeCarrosA + 1;
 
                 }
                 
             
             }
-                int mediaAno = somaAno / quantidadeCarros; 
+                double mediaAno = somaAno / quantidadeCarros;
 
                 double mediaValorCarros = somaValor / quantidadeCarros;
 

@@ -28,7 +28,7 @@ public class Exercicio4{
             
             contador += 1;
 
-             char letra = modelo.charAt(0); 
+             char letra = modelo.charAt(0);
                 if(letra == 'G' || letra == 'g'){
                     quantidadeCarrosG = quantidadeCarrosG + 1;
                 }else if(letra == 'A' || letra == 'a'){
@@ -38,7 +38,7 @@ public class Exercicio4{
                 
             
             }
-                int mediaAno = somaAno / quantidadeCarros; 
+                double mediaAno = somaAno / quantidadeCarros;
 
                 double mediaValorCarros = somaValor / quantidadeCarros;
 

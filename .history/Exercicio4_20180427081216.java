@@ -38,7 +38,7 @@ public class Exercicio4{
                 
             
             }
-                int mediaAno = somaAno / quantidadeCarros; 
+                double mediaAno = somaAno / quantidadeCarros;
 
                 double mediaValorCarros = somaValor / quantidadeCarros;
 
